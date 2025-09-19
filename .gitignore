@@ -1,2 +1,29 @@
-.env
-app/__pycache__
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.log
+docker-compose.override.yml
+*.bak
+*.swp
+
+# macOS / Linux
+.DS_Store
+*.swp
+*.swo
